@@ -1,0 +1,129 @@
+body
+{
+    background: linear-gradient(to left, #2c3e50, #000000);
+    color:white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    text-align: justify;
+    font-style: oblique;
+}
+.image-container img{
+    border-radius: 40px;
+    display:inline-block;
+}
+.image-container {
+    display: flex;
+    align-items: flex-end; 
+    justify-content: center; 
+    text-align: left;
+    padding-left: 400px;
+}
+.centered-image {
+    margin-right: 100px;
+}
+
+.para {
+    text-align: left;
+    justify-content: right;
+}
+.image-container{
+    text-align: center;
+}
+.name{
+    float:left
+}
+header ul {
+    list-style-type: none;
+    overflow: hidden;
+   
+  }
+  
+  header li {
+    float: right;
+  }
+  hr
+  {
+    border-top: white;
+  }
+  
+ header li a {
+    display: block;
+    padding: 3px 10px;
+    color:white;
+    text-decoration-line: none;
+  }
+  .foot{
+    float: left;
+    padding: 20px 25px;
+  }
+  .mail
+  {
+    text-decoration: underline;
+
+  }
+  footer{
+    height: 250px;
+  }
+  .contain{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    padding: 10px;
+  }
+  .social
+  {
+    padding-top: 20px;
+  }
+.linkin, .insta, .whats
+{
+  text-decoration-line: underline;
+}
+a:link {
+  color:white;
+}
+a:visited {
+  color: white;
+}
+a:hover {
+  color:white;
+}
+a:active{
+  color: white;
+}
+.finfo{
+  text-align:right;
+  padding: 20px 25px;
+}
+.input-box1{
+  background:transparent;
+  border: none;
+  border-bottom: 1px solid  #000000;
+}
+input[type="email"]:focus {
+  border-bottom: 1px solid #ccc; /* Change border color on focus */
+}
+.input-box{
+  border-radius: 20px;
+  height: 40px;
+  width:80px;
+}
+.stay1
+{
+  text-align:justify;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    padding: 10px;
+  }
+  .second-list{
+    list-style-type: none;
+    color: white;
+    padding-left:20px;
+  }
+ .ssecond-list .item{
+    display: list-item;
+    margin-bottom:5px;
+  }
